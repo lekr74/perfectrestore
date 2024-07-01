@@ -4,7 +4,7 @@ MikroTik config restore helper script
 This script is designed to restore plain-text, export files created using the following command.
 
 ```
-/export file=myrtrbackup
+/export terse show-sensitive file=backup
 ```
 
 ## Features
@@ -18,7 +18,7 @@ This script is designed to restore plain-text, export files created using the fo
 Copy both `perfectrestore.rsc` and `backup.rsc` to your router and run the following command.
 
 ```
-/import flash/perfectrestore
+/import perfectrestore
 ```
 The script has a pre and post delay of 15 seconds. Be close to your router to here the confirmation beeps and/or inspect the log file `perfectrestore.log.0.txt`
 
