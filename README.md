@@ -1,5 +1,5 @@
 # perfectrestore
-MikroTik config restore helper script
+MikroTik config restore helper script updated to work for ROS7
 
 This script is designed to restore plain-text, export files created using the following command.
 
